@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bar
+  profiles:
+    active: dev
+  config:
+    import: configserver:http://localhost:8888
